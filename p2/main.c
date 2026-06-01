@@ -19,7 +19,7 @@ int main(void)
     }
 
     for (p = arr1, q = arr2 + N - 1; p < arr1 + N; p++, q--) {
-        printf("%d ", *p + *q);
+        printf(" %d", *p + *q);
     }
 
     return 0;
